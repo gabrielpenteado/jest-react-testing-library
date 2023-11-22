@@ -4,3 +4,16 @@
   padding: 2rem;
   text-align: center;
 }
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10rem;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
