@@ -23,7 +23,7 @@ const Tasks = () => {
       <Button onClick={handleClick}>Get Tasks from API</Button>
 
       {tasks.map((tasks) => (
-        <p id={tasks.id}>{tasks.title}</p>
+        <p key={tasks.id}>{tasks.title}</p>
       ))}
     </div>
   );

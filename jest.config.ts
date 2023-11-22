@@ -219,6 +219,12 @@ const config: Config = {
 
   // Whether to use watchman for file crawling
   // watchman: true,
+
+  globals: {
+    "ts-jest": {
+      tsConfigFile: "tsconfig.json",
+    },
+  },
 };
 
 export default config;
